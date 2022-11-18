@@ -1,7 +1,3 @@
-/**
- * @jest-environment jsdom
- */
-
 import path from 'path'
 import { createPage, setupTest } from '@nuxt/test-utils'
 
@@ -9,7 +5,6 @@ describe('NuxtLogo', () => {
   setupTest({
     rootDir: path.resolve(__dirname, '../'),
     browser: true,
-
   })
 
   test('is a Vue instance', async () => {
