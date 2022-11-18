@@ -3,7 +3,7 @@ import { createPage, setupTest } from '@nuxt/test-utils'
 
 describe('NuxtLogo', () => {
   setupTest({
-    rootDir: path.resolve(__dirname, '../'),
+    rootDir: path.resolve(__dirname, '../playground/'),
     browser: true,
   })
 
