@@ -25,7 +25,9 @@
     "build": "yarn unbuild",
     "playground": "nodemon --exec 'nuxt ./playground' --watch ./dist -e js,ts",
     "playground:build": "nuxt build ./playground",
-    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
+    "lint": "eslint --ext .ts,.js,.vue .",
+    "typecheck": "yarn tsc"
   },
   "peerDependencies": {
     "@nuxt/types": "^2.15.8"
@@ -44,6 +46,7 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "26.6.3",
     "core-js": "^3.25.3",
+    "cross-env": "^7.0.3",
     "eslint": "^8.24.0",
     "eslint-plugin-jest": "^27.0.4",
     "eslint-plugin-nuxt": "^4.0.0",
