@@ -3,5 +3,3 @@
 
 pnpm lint
 pnpm typecheck
-pnpm build
-pnpm test

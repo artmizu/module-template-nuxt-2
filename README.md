@@ -9,7 +9,7 @@ You can clone this project and develop your own module, all the necessary tools 
 * Nuxt test utils
 * Typescript
 * Nuxt playground for the development purpose
-* Github actions for CI/CD
+* Github actions for CI/CD. Note: Note: the secret variable NPM_TOKEN is required for automatic release to the registry, also set "private" to false in you package.json
 * Husky with pre-push hook
 
 ## Requirements
