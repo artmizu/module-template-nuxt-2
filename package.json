@@ -3,17 +3,23 @@
   "type": "module",
   "version": "1.0.0",
   "private": true,
+  "author": "Aleksandr Saburov <hello@artmizu.ru> (http://artmizu.ru/)",
   "exports": {
     ".": {
+      "types": "./dist/module.d.ts",
       "require": "./dist/module.cjs",
       "import": "./dist/module.mjs"
     }
   },
   "main": "./dist/module.cjs",
+  "module": "./dist/module.mjs",
   "types": "./dist/module.d.ts",
   "files": [
     "dist"
   ],
+  "engines": {
+    "node": "^16.0.0"
+  },
   "scripts": {
     "dev": "nodemon --exec 'yarn build' --watch ./src -e js,ts",
     "build": "yarn unbuild",

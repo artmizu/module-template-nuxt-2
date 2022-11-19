@@ -11,5 +11,5 @@ You can clone this project and develop your own module, all the necessary tools 
 * Nuxt playground for the development purpose
 
 ## Requirements
-* Node JS 16.x.x, Nuxt 2 does not support higher versions
+* Node JS ^16.0.0, Nuxt 2 does not support higher versions
 * Yarn
