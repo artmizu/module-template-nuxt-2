@@ -9,7 +9,9 @@ You can clone this project and develop your own module, all the necessary tools 
 * Nuxt test utils
 * Typescript
 * Nuxt playground for the development purpose
+* Github actions for CI/CD
+* Husky with pre-push hook
 
 ## Requirements
 * Node JS ^16.0.0, Nuxt 2 does not support higher versions
-* Yarn
+* Pnpm
