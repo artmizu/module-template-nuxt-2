@@ -27,6 +27,7 @@
     "playground": "nodemon --exec 'nuxt ./playground' --watch ./dist -e js,ts",
     "playground:build": "nuxt build ./playground",
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
+    "test:watch": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --watch",
     "lint": "eslint --ext .ts,.js,.vue .",
     "typecheck": "pnpm tsc",
     "prepare": "husky install"
