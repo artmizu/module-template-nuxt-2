@@ -15,3 +15,11 @@ You can clone this project and develop your own module, all the necessary tools 
 ## Requirements
 * Node JS ^16.0.0, Nuxt 2 does not support higher versions
 * Pnpm
+
+## Attention
+Dependencies must be intalled via:
+```bash
+pnpm install --shamefully-hoist
+```
+
+Without this param nuxt will not be able to resolve dependencies properly.
